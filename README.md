@@ -1,8 +1,8 @@
 # Athlete results finder
 
 A small local web app that looks through Estonian and international shooting
-result sites and lists the competitions an athlete took part in in a chosen
-period – for example for a project or stipend application.
+result sites and lists the competitions an athlete took part in for a chosen
+period. Useful for example for a project or stipend application.
 
 > **What it is – and what it is not.** The aim is to *find every competition*
 > an athlete took part in, so nothing is forgotten. The results, ranks,
@@ -11,7 +11,7 @@ period – for example for a project or stipend application.
 > to its source document: check the numbers there before you use them
 > anywhere official.
 
-For each result you get the **date(s), competition, category / event, type,
+For each result you get the **date(s), competition name, category / event, type** (individual, team) **,
 result, rank, number of participants in that category, link and source**, plus
 a **Notes** column that says when something needs a closer look.
 
