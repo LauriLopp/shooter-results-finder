@@ -1,0 +1,34 @@
+[project]
+name = "results-scraper"
+version = "1.0.0"
+description = "Find all competition results of shooting athletes on laskurliit.ee, protokollitaja.eu, esc-shooting.org and results.sius.com"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Lauri Lopp", email = "lopplauri@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "certifi>=2026.10.23",
+    "fpdf2>=2.9.0",
+    "openpyxl>=3.1.5",
+    "pdfplumber>=0.11.10",
+    "pypdf>=6.21.4",
+    "rapidfuzz>=3.14.6",
+    "requests>=2.34.2",
+    "streamlit>=1.66.1",
+    "xlrd>=2.0.2",
+]
+
+[project.scripts]
+results-scraper = "results_scraper:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
